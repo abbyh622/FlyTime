@@ -1,3 +1,3 @@
-This is a simple PowerShell script for a customizable timer created for video-tracking behavioral experiments with Drosophila. 
+This is a simple PowerShell script for a customizable timer created for experiments with Drosophila involving video-tracking of behavior and locomotion. 
 
 Input the number of ROIs (regions of interest/arenas, 1-8) and seconds per ROI (how many seconds you want to record activity in each ROI for), and start or stop the timer with the spacebar. A beep is played to indicate the ROI being observed, which increases in pitch for each ROI. When the beep is played the ROI # is displayed with a '.' added every second until the number of seconds input is reached. When the last ROI's time is complete, the timer returns to the beginning of the loop and the beeps restart from the original pitch. 
